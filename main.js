@@ -54,3 +54,11 @@ class Blockchain {
         return true;
     }
 }
+
+//Test out blockchain
+let chain = new Blockchain();
+chain.addBlock(new Block("02/23/2019"), {amount: 39});
+chain.addBlock(new Block("03/23/2019"), {amount: 129});
+
+console.log(JSON.stringify(chain, null, 4));
+console.log('Is blockchain valid?: ' + chain.checkValid());
