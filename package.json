@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Simple blockchain in NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpjackson90/node-blockchain.git"
+  },
+  "author": "Kareem Phillip Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpjackson90/node-blockchain/issues"
+  },
+  "homepage": "https://github.com/kpjackson90/node-blockchain#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
